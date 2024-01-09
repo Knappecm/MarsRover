@@ -38,6 +38,7 @@ public class Rover(string x, string y, Compass d, Char[] i, Boundary b)
         switch (Direction.Position)
         {
             case Compass.N:
+                //Check bounds and increment/decrement the position
                 if (bound.NorthBoundary > Position.NorthPoint)
                 {
                     Position.IncrementVertical();

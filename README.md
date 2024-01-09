@@ -13,4 +13,4 @@ the endpoint will return the results as:<br>
  5 1 E"
 
 
-*NOTE: No Behavior was specificed for boundary expections. My Behavior is to not continue if the rover is at bounds i.e. if the rover is at the boundary as asked to move forward again, it will stay at boundary* 
+*NOTE: No Behavior was specificed for boundary expections. My Behavior is to not continue if the rover is at bounds i.e. if the rover is at the boundary and is asked to move forward again, it will stay at boundary* 
